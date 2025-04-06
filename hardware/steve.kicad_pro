@@ -440,8 +440,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Imported_Footprints"
+    ],
+    "pinned_symbol_libs": [
+      "Imported_Symbols"
+    ]
   },
   "meta": {
     "filename": "steve.kicad_pro",
