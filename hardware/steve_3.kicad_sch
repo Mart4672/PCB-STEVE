@@ -1688,7 +1688,7 @@
 		(uuid "23973cfd-f34a-45e8-aa35-041792808c3f")
 	)
 	(junction
-		(at 273.05 46.99)
+		(at 271.78 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c67f989-8914-4bc0-ae4d-8316db97ce51")
@@ -1811,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 57.15) (xy 273.05 59.69)
+			(xy 271.78 59.69) (xy 271.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 46.99) (xy 273.05 49.53)
+			(xy 271.78 49.53) (xy 271.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 34.29) (xy 273.05 36.83)
+			(xy 271.78 35.56) (xy 271.78 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 46.99) (xy 273.05 46.99)
+			(xy 267.97 49.53) (xy 271.78 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2331,16 +2331,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 24.13) (xy 273.05 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ac6a22-2696-4f0c-852c-e3667574598e")
-	)
-	(wire
-		(pts
 			(xy 26.67 86.36) (xy 26.67 82.55)
 		)
 		(stroke
@@ -2511,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 44.45) (xy 273.05 46.99)
+			(xy 271.78 46.99) (xy 271.78 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2704,6 +2694,25 @@
 		)
 		(uuid "45f4586b-b94d-444a-8d9f-e01d73c599ca")
 	)
+	(text_box "Voltage divider for the 5V regulator enable pin.\nThe enable pin has an absolute max voltage of 6V (see Section 6.1).\nThe enable threshold high level must be at least 1.31V (see Section 6.5).\nThese R values were chosen so that the enable pin voltage is ~23% (100/(330+100)) of +BATT.\nThis allows a fully charged 6s LiPo battery to safely enable the regulator (25.2V * .23256 = 5.86V).\nThis also allows a 2s LiPo battery at a low state of charge (~3V per cell)\nto still enable the regulator (6V * .23256 = 1.39V)."
+		(exclude_from_sim no)
+		(at 234.95 26.67 0)
+		(size 33.02 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "4e9bd52c-361a-46d0-ad20-70e1fc47d3bd")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 64.77 20.32 0)
@@ -2741,25 +2750,6 @@
 			(justify left top)
 		)
 		(uuid "6233049a-5303-4025-b190-58b9d5a8ee2d")
-	)
-	(text_box "Voltage divider for the 5V regulator enable pin.\nThe enable pin has an absolute max voltage of 6V (see Section 6.1).\nThe enable threshold high level must be at least 1.31V (see Section 6.5).\nThese R values were chosen so that the enable pin voltage is ~23% (120/520) of +BATT.\nThis allows a fully charged 6s LiPo battery to safely enable the regulator (25.2V * .23 = 5.8V).\nThis also allows a 2s LiPo battery at a low state of charge (~3V per cell)\nto still enable the regulator (6V * .23 = 1.38V)."
-		(exclude_from_sim no)
-		(at 238.76 21.59 0)
-		(size 31.75 16.51)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left top)
-		)
-		(uuid "a8f4aba7-6f0f-4a67-8228-61d7950bb24c")
 	)
 	(text_box "See \"Table 5-1. Pin Functions\"\nfor more info on Mode selection pin"
 		(exclude_from_sim no)
@@ -2869,7 +2859,7 @@
 	)
 	(global_label "U2_EN"
 		(shape input)
-		(at 269.24 46.99 180)
+		(at 267.97 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2879,7 +2869,7 @@
 		)
 		(uuid "372bf2f5-e1da-4f98-9b0c-a270e55757de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.2677 46.99 0)
+			(at 258.9977 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3046,7 @@
 		(dnp no)
 		(uuid "0495ba10-b641-431b-aa48-f79739878204")
 		(property "Reference" "R5"
-			(at 152.654 57.15 0)
+			(at 159.512 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,8 +3054,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20k"
-			(at 152.654 64.008 0)
+		(property "Value" "20k 1%"
+			(at 157.988 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,8 +3260,8 @@
 				)
 			)
 		)
-		(property "Value" "0k"
-			(at 156.718 37.084 90)
+		(property "Value" "0k 1%"
+			(at 155.194 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,76 +3305,6 @@
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 273.05 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26512269-e182-4d87-8927-6626db6bed30")
-		(property "Reference" "R8"
-			(at 275.59 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "200k"
-			(at 275.59 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 274.066 30.734 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 273.05 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ea34ffd-6d54-4f21-a505-268b2671c802")
-		)
-		(pin "1"
-			(uuid "1250af77-5b1e-4afa-92a3-fd6e699f1c9e")
-		)
-		(instances
-			(project "steve"
-				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3569,7 +3489,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 273.05 24.13 0)
+		(at 271.78 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,7 +3498,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d7d141-c094-459e-87c1-0d4c3cf9cc9f")
 		(property "Reference" "#PWR041"
-			(at 273.05 27.94 0)
+			(at 271.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3507,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 273.05 19.05 0)
+			(at 271.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3595,7 +3515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 24.13 0)
+			(at 271.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 24.13 0)
+			(at 271.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 273.05 24.13 0)
+			(at 271.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3621,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 59.69 0)
+		(at 271.78 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3709,7 +3629,7 @@
 		(dnp no)
 		(uuid "46718472-7a43-4783-aefc-0398091c98c9")
 		(property "Reference" "#PWR042"
-			(at 273.05 66.04 0)
+			(at 271.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,7 +3638,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 275.844 59.436 0)
+			(at 274.574 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3726,7 +3646,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 59.69 0)
+			(at 271.78 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 59.69 0)
+			(at 271.78 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3664,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 59.69 0)
+			(at 271.78 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +4368,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 273.05 40.64 0)
+		(at 271.78 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4457,7 +4377,7 @@
 		(fields_autoplaced yes)
 		(uuid "8951b4ea-7aa7-4ea2-9b87-2b38a8029df4")
 		(property "Reference" "R9"
-			(at 275.59 39.3699 0)
+			(at 274.32 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,8 +4385,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "200k"
-			(at 275.59 41.9099 0)
+		(property "Value" "330k 1%"
+			(at 274.32 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4395,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 274.066 40.894 90)
+			(at 272.796 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 40.64 0)
+			(at 271.78 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4413,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 273.05 40.64 0)
+			(at 271.78 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,15 +4646,15 @@
 		(dnp no)
 		(uuid "ab84a497-c429-486d-a37e-3df0ca899435")
 		(property "Reference" "R7"
-			(at 178.816 48.006 90)
+			(at 186.69 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "150k"
-			(at 187.706 47.752 90)
+		(property "Value" "150k 1%"
+			(at 176.022 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,15 +4713,15 @@
 		(dnp no)
 		(uuid "ba5ec9cf-b725-4c84-b18c-49c227143496")
 		(property "Reference" "R6"
-			(at 164.846 57.15 90)
+			(at 167.64 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0k"
-			(at 171.196 56.642 90)
+		(property "Value" "0k 1%"
+			(at 167.894 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5241,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 273.05 53.34 0)
+		(at 271.78 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5330,7 +5250,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4b52656-cb18-48b4-aa9d-f22d71c2f793")
 		(property "Reference" "R10"
-			(at 275.59 52.0699 0)
+			(at 274.32 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,8 +5258,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120k"
-			(at 275.59 54.6099 0)
+		(property "Value" "100k 1%"
+			(at 274.32 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 274.066 53.594 90)
+			(at 272.796 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 53.34 0)
+			(at 271.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5286,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 273.05 53.34 0)
+			(at 271.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

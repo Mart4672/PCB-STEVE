@@ -39,18 +39,19 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
     - placed close to both the USB-C and Regulated 5V power inputs
 - 2 JST-SH 4 pin connectors for I2C
     - allows for easy hardware development for I2C devices (load cells, GNSS, etc)
+- 1 passive buzzer (passive buzzers allow for different beep noises)
+- 4 standard LEDs
+- 2 WS2812 (NeoPixel) Addressable LEDs
 
 TODO
-- 1 passive buzzer (passive buzzers allow for different beep noises)
-- 3 standard LEDS
-- 1 WS2812 (NeoPixel) Addressable LED
-- 1 battery voltage sense line
 - Connectors for PSM board signals (3 x 6 pin connectors)
     - Uses JST-GH connectors
     - Servo PWM signals (4)
     - Mosfet gate signals (5)
     - Mosfet continuity signals (5)
     - Battery Voltage sensing lines (1)
+- 1 battery voltage sense line
+    - DO THIS ONCE I HAVE THE PSM CONNECTOR ADDED
 - Additional GPIO and bus pins broken out
     - 1 additional SPI bus (could be used for a GNSS device)
     - Uses screwless terminal blocks
