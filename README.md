@@ -1,7 +1,6 @@
 # PCB-STEVE
 STM32F4 based Flight Computer Development PCB
 
-## STEVE
 STEVE, the name of this flight computer, is an acronym:
 Starter Testbed for Evolving the Vehicle Electronics
 
@@ -13,7 +12,7 @@ Future versions of STEVE will have a focus on exapnding a flight vehicle's envel
 
 STEVE is intended to be used on a flight vehicle such as a model rocket but can also be used in static environments such as a ground test stand.
 
-### STEVE Version 1 Hardware Features
+## STEVE Version 1 Hardware Features
 - 1 STM32F407 Microcontroller
     - (STM32F407VGT6 is the specific SKU being used)
     - 1024 KB (1MB) of internal flash memory
@@ -56,47 +55,9 @@ TODO
     - 1 additional SPI bus (could be used for a GNSS device)
     - Uses screwless terminal blocks
 
-### Modular/Configurable PSM Board "Version A" Features
-- Power Supply Module board that supports power, servos, and mosfets
-    - all high current devices should be managed by this board
-- Supports a battery input voltage range that covers 6 to 16.8V
-    - This voltage range ensures that 2s to 4s LiPo batteries can be used
-- Has a PMIC that outputs a regulated 5V and supports at least 5A continuous
-- Has a high current diode rectifier to support a second power input
-    - intended for a secondary battery or a power supply for keeping the main PSM battery from discharging
-- Has terminal blocks for battery connections
-
-TODO
-- 5 Mosfet channels
-    - 2 5V channels
-    - 3 VBatt channels
-    - continuity checking on all channels
-        - optionally uses alternative continuity circuit (NFET instead of voltage divider) [1/15/2025]
-    - current limiting resistors or fuses on all channels
-        - uses a high wattage-rated resistor to limit the current to a level that the traces can handle
-- 4 Servo connections
-    - uses a screwless terminal block connection
-        - ex: TE 1-2834015-4 Buchanan WireMate
-    - uses inline PTC fuses for each servo
-- Connectors for STEVE board signals
-    - Uses screwless terminal block connectors or JST-GH connectors
-    - Servo PWM signals (4)
-    - Mosfet gate signals (5)
-    - Mosfet continuity signals (5)
-    - Battery Voltage sensing lines (1)
-
-- import/assign missing 3D part models
-
 ## Future Updates
 
 ### Future STEVE Updates
 - use a PMOS mosfet for reverse polarity protection
 - add additional IMUs to the board
 - add an RJ45 connector to utilize the ethernet capabilities of the STM32F407 (this might be part of a completely different board design)
-
-### Future PSM Board Updates
-- create additional PSM boards with more/less features depending on desired capability
-    - ex: a larger PSM board with a second PMIC to support more servos and mosfets
-    - ex: a smaller PSM board with fewer supported servos/mosfets and/or a lower current rating
-- use a PMOS mosfet for reverse polarity protection
-- current draw sensing that can be reported to the main STEVE board
