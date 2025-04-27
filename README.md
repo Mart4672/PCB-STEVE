@@ -41,19 +41,22 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
 - 1 passive buzzer (passive buzzers allow for different beep noises)
 - 4 standard LEDs
 - 2 WS2812 (NeoPixel) Addressable LEDs
-
-TODO
+- Additional GPIO and bus pins broken out
+    - SPI2 (also used for BMP390) pins
+    - UART1 pins
+    - 2 ADC (12-bit) capable pins
+    - Uses screwless terminal blocks
 - Connectors for PSM board signals (3 x 6 pin connectors)
     - Uses JST-GH connectors
     - Servo PWM signals (4)
     - Mosfet gate signals (5)
     - Mosfet continuity signals (5)
-    - Battery Voltage sensing lines (1)
-- 1 battery voltage sense line
-    - DO THIS ONCE I HAVE THE PSM CONNECTOR ADDED
-- Additional GPIO and bus pins broken out
-    - 1 additional SPI bus (could be used for a GNSS device)
-    - Uses screwless terminal blocks
+    - Battery #1 Voltage sense line
+
+TODO
+    - board setup for fab
+    - route traces
+    - Rule checks
 
 ## Future Updates
 
