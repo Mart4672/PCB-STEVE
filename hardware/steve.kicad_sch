@@ -5115,12 +5115,6 @@
 		(uuid "ae7c0bb0-75fa-4c4d-b729-3e3e0fba62aa")
 	)
 	(junction
-		(at 148.59 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b69f8833-7626-4fbc-9383-aeded8de430b")
-	)
-	(junction
 		(at 200.66 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5157,12 +5151,6 @@
 		(uuid "cd24ff6f-c4e9-46f9-ab32-9ee08212ce55")
 	)
 	(junction
-		(at 135.89 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1463805-bea5-4392-9b5a-dd4b98b5d57d")
-	)
-	(junction
 		(at 229.87 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5173,12 +5161,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e481041f-b046-4ff8-933f-2e77a4b12901")
-	)
-	(junction
-		(at 142.24 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6c2a08d-9174-435c-a760-259c5c6a8ba9")
 	)
 	(junction
 		(at 59.69 175.26)
@@ -5468,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 90.17) (xy 142.24 96.52)
+			(xy 142.24 90.17) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5478,7 +5460,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 138.43 85.09)
+			(xy 132.08 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5615,16 +5597,6 @@
 			(type default)
 		)
 		(uuid "26fa1cc0-484b-416c-9fb8-c7c38e3c2183")
-	)
-	(wire
-		(pts
-			(xy 135.89 85.09) (xy 135.89 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2791eaf9-6851-460c-a0e3-bc990159007a")
 	)
 	(wire
 		(pts
@@ -5828,6 +5800,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 85.09) (xy 152.4 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd235cd-cfa4-4323-b61f-4c989f38d8fa")
+	)
+	(wire
+		(pts
 			(xy 52.07 172.72) (xy 52.07 175.26)
 		)
 		(stroke
@@ -5898,16 +5880,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 96.52) (xy 142.24 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9c32eb-8264-4435-b386-7707e8c646cd")
-	)
-	(wire
-		(pts
 			(xy 36.83 86.36) (xy 41.91 86.36)
 		)
 		(stroke
@@ -5928,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 142.24 80.01)
+			(xy 142.24 74.93) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6138,16 +6110,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 85.09) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5463893e-9b5d-4450-b6f8-21745604f84a")
-	)
-	(wire
-		(pts
 			(xy 52.07 175.26) (xy 55.88 175.26)
 		)
 		(stroke
@@ -6178,13 +6140,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 152.4 85.09)
+			(xy 148.59 133.35) (xy 148.59 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "573cbd23-6116-4951-a77b-0f37dc91a61e")
+		(uuid "56f1552a-fe06-4af4-b592-06ee9bdadd5f")
 	)
 	(wire
 		(pts
@@ -6408,16 +6370,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 148.59 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c94cf6-2eb5-43b4-9201-3817e12615b6")
-	)
-	(wire
-		(pts
 			(xy 21.59 161.29) (xy 21.59 165.1)
 		)
 		(stroke
@@ -6518,7 +6470,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 73.66) (xy 147.32 74.93)
+			(xy 147.32 74.93) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6638,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 148.59 125.73)
+			(xy 148.59 121.92) (xy 148.59 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6788,16 +6740,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 142.24 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0d4d43-7299-4943-a068-977526cc27a7")
-	)
-	(wire
-		(pts
 			(xy 87.63 124.46) (xy 90.17 124.46)
 		)
 		(stroke
@@ -6905,16 +6847,6 @@
 			(type default)
 		)
 		(uuid "b6a60f69-0708-4dbc-aeef-6492b7596330")
-	)
-	(wire
-		(pts
-			(xy 148.59 85.09) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b82c523c-cdd2-4fc2-8ffa-788c94cd220b")
 	)
 	(wire
 		(pts
@@ -7098,7 +7030,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 121.92) (xy 135.89 125.73)
+			(xy 135.89 121.92) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7538,6 +7470,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 133.35) (xy 135.89 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32d1da3-a648-419a-86f0-5a5ee0439cf6")
+	)
+	(wire
+		(pts
 			(xy 62.23 27.94) (xy 62.23 30.48)
 		)
 		(stroke
@@ -7628,23 +7570,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 147.32 73.66)
+			(xy 142.24 74.93) (xy 147.32 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbb3187a-2c7f-48ec-8a9c-43cc7cf5e222")
-	)
-	(wire
-		(pts
-			(xy 142.24 96.52) (xy 148.59 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6cdccf-4f32-49a1-bba2-b4f31f718d1a")
 	)
 	(wire
 		(pts
@@ -7808,6 +7740,25 @@
 			(justify left top)
 		)
 		(uuid "421e656a-4d18-4749-8c2b-d01ac905a247")
+	)
+	(text_box "NOTE: for this specific board, the following STM32 microcontrollers are drop in:\n(assuming a matching footprint/package is used)\nSTM32F405\nSTM32F415\nSTM32F417\n"
+		(exclude_from_sim no)
+		(at 72.39 175.26 0)
+		(size 31.75 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left top)
+		)
+		(uuid "45bb497b-0499-4f82-ae44-e36dfd33b2a5")
 	)
 	(text_box "VREF+ can be directly \nconnected to VDDA\nSee DS8626_STM32F40xxx \ndatasheet - Figure 51 and \nFigure 52 for more details"
 		(exclude_from_sim no)
@@ -9998,6 +9949,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10006,7 +9960,7 @@
 			(at 273.304 54.864 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10067,6 +10021,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10075,7 +10032,7 @@
 			(at 198.628 131.826 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10136,6 +10093,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10144,7 +10104,7 @@
 			(at 142.748 58.166 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10205,6 +10165,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10213,7 +10176,7 @@
 			(at 132.588 58.166 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10275,6 +10238,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10283,7 +10249,7 @@
 			(at 138.43 38.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10328,7 +10294,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 129.54 0)
+		(at 148.59 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10336,25 +10302,28 @@
 		(dnp no)
 		(uuid "1285aac3-ed1b-41ee-bbeb-bb8354e55ee2")
 		(property "Reference" "C6"
-			(at 150.114 126.746 0)
+			(at 150.114 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5pF"
-			(at 149.606 132.334 0)
+			(at 149.606 131.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.5552 133.35 0)
+			(at 149.5552 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 129.54 0)
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10341,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 129.54 0)
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,6 +10378,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10417,7 +10389,7 @@
 			(at 117.856 43.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10474,6 +10446,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10482,7 +10457,7 @@
 			(at 202.692 116.586 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10540,6 +10515,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10548,7 +10526,7 @@
 			(at 25.4 158.7499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10610,6 +10588,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10618,7 +10599,7 @@
 			(at 271.78 153.67 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10675,6 +10656,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10683,7 +10667,7 @@
 			(at 174.498 85.598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10741,6 +10725,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10749,7 +10736,7 @@
 			(at 132.588 28.956 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10811,6 +10798,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10819,7 +10809,7 @@
 			(at 271.78 113.03 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -10871,11 +10861,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fbc8c13-1748-4e30-ad6b-d15fc206c822")
-		(property "Reference" "U6"
-			(at 252.476 121.412 0)
+		(property "Reference" "Flash1"
+			(at 251.46 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -10884,7 +10877,7 @@
 			(at 252.222 117.094 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -10943,7 +10936,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "U6")
+					(reference "Flash1")
 					(unit 1)
 				)
 			)
@@ -10964,6 +10957,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -10972,7 +10968,7 @@
 			(at 148.59 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11025,11 +11021,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41db256e-f9e0-4ca4-9399-22d771e929b6")
-		(property "Reference" "U3"
+		(property "Reference" "3.3V-LinReg1"
 			(at 190.5 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -11037,7 +11036,7 @@
 			(at 190.5 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11080,7 +11079,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "U3")
+					(reference "3.3V-LinReg1")
 					(unit 1)
 				)
 			)
@@ -11101,6 +11100,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11109,7 +11111,7 @@
 			(at 21.59 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11166,6 +11168,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11174,7 +11179,7 @@
 			(at 192.786 36.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11232,6 +11237,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11240,7 +11248,7 @@
 			(at 128.27 38.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11292,11 +11300,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "583b1141-42b3-4808-b57a-686c84bbf2f1")
-		(property "Reference" "SW2"
+		(property "Reference" "BT0"
 			(at 203.962 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -11349,7 +11360,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "SW2")
+					(reference "BT0")
 					(unit 1)
 				)
 			)
@@ -11369,6 +11380,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11377,7 +11391,7 @@
 			(at 152.908 185.928 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11434,6 +11448,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -11442,7 +11459,7 @@
 			(at 122.428 28.956 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -11503,6 +11520,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -11511,7 +11531,7 @@
 			(at 112.268 28.956 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -11572,6 +11592,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11580,7 +11603,7 @@
 			(at 168.656 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11638,6 +11661,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -11646,7 +11672,7 @@
 			(at 39.37 158.7499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -11707,6 +11733,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11715,7 +11744,7 @@
 			(at 177.038 80.518 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -11773,6 +11802,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11781,7 +11813,7 @@
 			(at 117.856 13.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11839,6 +11871,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11847,7 +11882,7 @@
 			(at 142.24 104.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11905,6 +11940,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -11913,7 +11951,7 @@
 			(at 200.66 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -11965,11 +12003,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "754a7cb7-f96f-4ff4-b9d2-83fccf456a50")
-		(property "Reference" "D2"
-			(at 197.612 91.186 0)
+		(property "Reference" "5V-DiodeArr1"
+			(at 204.47 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -11977,7 +12018,7 @@
 			(at 193.04 94.996 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12020,7 +12061,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "D2")
+					(reference "5V-DiodeArr1")
 					(unit 1)
 				)
 			)
@@ -12041,6 +12082,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -12049,7 +12093,7 @@
 			(at 148.59 149.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12100,21 +12144,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "808e17bc-03c3-4d62-a9b4-1ab91ba42433")
-		(property "Reference" "Y2"
-			(at 142.24 114.3 0)
+		(property "Reference" "32.768kHz-Y2"
+			(at 140.716 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 142.24 116.84 0)
+			(at 141.224 117.856 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12154,7 +12200,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "Y2")
+					(reference "32.768kHz-Y2")
 					(unit 1)
 				)
 			)
@@ -12175,6 +12221,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -12183,7 +12232,7 @@
 			(at 67.31 184.15 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12241,6 +12290,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -12249,7 +12301,7 @@
 			(at 16.51 34.29 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12306,6 +12358,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -12314,7 +12369,7 @@
 			(at 194.056 50.292 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -12376,6 +12431,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -12384,7 +12442,7 @@
 			(at 267.97 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12441,6 +12499,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -12449,7 +12510,7 @@
 			(at 160.782 49.276 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -12510,6 +12571,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -12517,7 +12581,7 @@
 			(at 255.778 38.354 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -12565,33 +12629,35 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 74.93 0)
+		(at 147.32 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9379902f-3a7c-45fc-bda8-58224ab1403c")
 		(property "Reference" "#PWR09"
-			(at 147.32 81.28 0)
+			(at 147.32 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 80.01 0)
+			(at 147.32 79.756 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 74.93 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12600,7 +12666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 74.93 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +12675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 74.93 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,11 +12704,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9787774a-e517-4c03-a2d3-3584e3b36788")
-		(property "Reference" "U1"
+		(property "Reference" "STM32F407-µC1"
 			(at 69.5041 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -12651,7 +12720,7 @@
 			(at 69.5041 172.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -12985,7 +13054,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "U1")
+					(reference "STM32F407-µC1")
 					(unit 1)
 				)
 			)
@@ -13006,6 +13075,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13014,7 +13086,7 @@
 			(at 72.39 17.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13067,11 +13139,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e43fd3d-2d8e-4652-ac5b-e8e311842205")
-		(property "Reference" "J5"
+		(property "Reference" "USBC-1"
 			(at 229.87 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -13079,7 +13154,7 @@
 			(at 229.87 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13164,7 +13239,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "J5")
+					(reference "USBC-1")
 					(unit 1)
 				)
 			)
@@ -13184,6 +13259,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -13192,7 +13270,7 @@
 			(at 178.054 132.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -13248,11 +13326,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3d8ca07-e298-4968-9355-fd1bd4ee4cb0")
-		(property "Reference" "SW1"
+		(property "Reference" "RST1"
 			(at 182.372 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -13305,7 +13386,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "SW1")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
@@ -13326,6 +13407,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13334,7 +13418,7 @@
 			(at 201.93 81.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13391,6 +13475,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13399,7 +13486,7 @@
 			(at 200.406 20.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13456,6 +13543,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -13464,7 +13554,7 @@
 			(at 241.554 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -13526,6 +13616,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13534,7 +13627,7 @@
 			(at 271.78 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13592,6 +13685,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13600,7 +13696,7 @@
 			(at 138.43 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13657,6 +13753,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13665,7 +13764,7 @@
 			(at 249.936 18.288 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -13724,6 +13823,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13732,7 +13834,7 @@
 			(at 118.11 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13790,6 +13892,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13798,7 +13903,7 @@
 			(at 142.24 140.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13856,6 +13961,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13864,7 +13972,7 @@
 			(at 168.91 60.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13922,6 +14030,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -13930,7 +14041,7 @@
 			(at 118.11 38.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -13987,6 +14098,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -13995,7 +14109,7 @@
 			(at 112.268 58.166 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -14056,6 +14170,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14064,7 +14181,7 @@
 			(at 225.552 70.358 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14121,6 +14238,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -14129,7 +14249,7 @@
 			(at 162.306 31.242 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -14190,6 +14310,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -14198,7 +14321,7 @@
 			(at 122.428 58.166 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -14260,6 +14383,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14268,7 +14394,7 @@
 			(at 128.27 67.31 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14325,6 +14451,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -14333,7 +14462,7 @@
 			(at 272.542 136.144 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -14394,6 +14523,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14402,7 +14534,7 @@
 			(at 178.816 116.586 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14460,6 +14592,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14468,7 +14603,7 @@
 			(at 35.56 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14520,16 +14655,19 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e361bec7-f761-4961-a7f5-a5ce6019391c")
-		(property "Reference" "J1"
+		(property "Reference" "TagConnect-1"
 			(at 144.78 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+		(property "Value" "TagConnect_TC2030-NL"
 			(at 144.526 171.958 0)
 			(effects
 				(font
@@ -14586,7 +14724,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "J1")
+					(reference "TagConnect-1")
 					(unit 1)
 				)
 			)
@@ -14594,7 +14732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 129.54 0)
+		(at 135.89 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14602,25 +14740,28 @@
 		(dnp no)
 		(uuid "ec62cd68-019d-468f-ba9c-e5c1a46e231e")
 		(property "Reference" "C5"
-			(at 132.08 127 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "5pF"
-			(at 131.318 132.334 0)
+			(at 131.318 131.064 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 136.8552 133.35 0)
+			(at 136.8552 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14629,7 +14770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 129.54 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14638,7 +14779,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 129.54 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,11 +14811,14 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecd176e7-1c64-4ecf-9360-8ab0d580440e")
-		(property "Reference" "Y1"
-			(at 144.018 77.216 0)
+		(property "Reference" "8MHz-Y1"
+			(at 144.272 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -14682,7 +14826,7 @@
 			(at 137.668 77.216 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14728,7 +14872,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "Y1")
+					(reference "8MHz-Y1")
 					(unit 1)
 				)
 			)
@@ -14749,6 +14893,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14757,7 +14904,7 @@
 			(at 229.87 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14814,6 +14961,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 			)
 		)
@@ -14821,7 +14971,7 @@
 			(at 255.778 43.434 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -14881,6 +15031,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -14889,7 +15042,7 @@
 			(at 262.382 55.118 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -14951,6 +15104,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -14959,7 +15115,7 @@
 			(at 190.5 140.97 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -15017,6 +15173,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -15025,7 +15184,7 @@
 			(at 247.65 106.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)

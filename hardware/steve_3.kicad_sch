@@ -3710,6 +3710,9 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -3718,7 +3721,7 @@
 			(at 144.526 136.906 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -3800,6 +3803,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -3808,7 +3814,7 @@
 			(at 90.17 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -3865,6 +3871,9 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -3873,7 +3882,7 @@
 			(at 84.836 136.906 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -3955,6 +3964,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -3963,7 +3975,7 @@
 			(at 161.29 120.65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4020,6 +4032,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4028,7 +4043,7 @@
 			(at 168.656 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4086,6 +4101,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4094,7 +4112,7 @@
 			(at 101.6 120.65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4151,6 +4169,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -4159,7 +4180,7 @@
 			(at 74.168 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4223,6 +4244,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4231,7 +4255,7 @@
 			(at 122.936 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4289,6 +4313,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4297,7 +4324,7 @@
 			(at 123.19 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4354,6 +4381,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -4362,7 +4392,7 @@
 			(at 173.228 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4426,6 +4456,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -4434,7 +4467,7 @@
 			(at 184.404 41.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -4495,6 +4528,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -4503,7 +4539,7 @@
 			(at 206.248 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -4567,6 +4603,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4575,7 +4614,7 @@
 			(at 221.996 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4633,6 +4672,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4641,7 +4683,7 @@
 			(at 156.21 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4699,6 +4741,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4707,7 +4752,7 @@
 			(at 222.25 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4764,6 +4809,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -4772,7 +4820,7 @@
 			(at 151.384 41.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -4833,6 +4881,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4841,7 +4892,7 @@
 			(at 108.966 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4898,6 +4949,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -4906,7 +4960,7 @@
 			(at 89.916 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -4959,20 +5013,23 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760e387f-1746-4ef6-be99-5fc02997e38f")
-		(property "Reference" "J2"
-			(at 48.26 33.0199 0)
+		(property "Reference" "PSM-1"
+			(at 48.26 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "PSM-Servo"
 			(at 48.26 35.5599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -5025,7 +5082,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "J2")
+					(reference "PSM-1")
 					(unit 1)
 				)
 			)
@@ -5041,20 +5098,23 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812ede02-90c5-4b69-9a46-ff410035995a")
-		(property "Reference" "J3"
-			(at 48.26 54.6099 0)
+		(property "Reference" "PSM-2"
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "PSM-MOSFET_BATT1"
 			(at 48.26 57.1499 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -5107,7 +5167,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "J3")
+					(reference "PSM-2")
 					(unit 1)
 				)
 			)
@@ -5123,20 +5183,23 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89bd623c-e3b7-46a0-b8ca-673d83c47154")
-		(property "Reference" "J8"
-			(at 48.26 76.1999 0)
+		(property "Reference" "PSM-3"
+			(at 48.26 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "PSM_Cont"
 			(at 48.26 78.7399 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -5189,7 +5252,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "J8")
+					(reference "PSM-3")
 					(unit 1)
 				)
 			)
@@ -5209,6 +5272,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -5217,7 +5283,7 @@
 			(at 155.956 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5274,6 +5340,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -5282,7 +5351,7 @@
 			(at 140.208 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -5346,6 +5415,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -5354,7 +5426,7 @@
 			(at 107.188 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
@@ -5419,6 +5491,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -5427,7 +5502,7 @@
 			(at 189.23 64.77 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5484,6 +5559,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -5492,7 +5570,7 @@
 			(at 85.344 41.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -5553,6 +5631,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -5561,7 +5642,7 @@
 			(at 118.364 41.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -5622,6 +5703,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -5630,7 +5714,7 @@
 			(at 217.424 41.148 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -5692,6 +5776,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -5700,7 +5787,7 @@
 			(at 20.32 120.65 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5757,6 +5844,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -5765,7 +5855,7 @@
 			(at 267.462 38.354 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -5827,6 +5917,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -5835,7 +5928,7 @@
 			(at 265.43 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5892,6 +5985,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(hide yes)
 			)
@@ -5900,7 +5996,7 @@
 			(at 188.976 27.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 			)
 		)
@@ -5957,6 +6053,9 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify right)
 			)
@@ -5965,7 +6064,7 @@
 			(at 267.462 51.054 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify right)
 			)
@@ -6026,6 +6125,9 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+					(thickness 0.3048)
+					(bold yes)
+					(color 132 132 0 1)
 				)
 				(justify left)
 			)
@@ -6034,7 +6136,7 @@
 			(at 16.256 136.906 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)

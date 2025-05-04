@@ -12,7 +12,7 @@
         "copper_text_size_h": 2.0,
         "copper_text_size_v": 2.0,
         "copper_text_thickness": 0.4,
-        "copper_text_upright": false,
+        "copper_text_upright": true,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
@@ -29,24 +29,24 @@
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
-        "fab_text_upright": false,
+        "fab_text_upright": true,
         "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
-        "other_text_upright": false,
+        "other_text_upright": true,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.048,
+          "height": 3.048,
+          "width": 3.048
         },
-        "silk_line_width": 0.2,
+        "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.5,
-        "silk_text_size_v": 1.5,
-        "silk_text_thickness": 0.3,
-        "silk_text_upright": false,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": true,
         "zones": {
           "min_clearance": 0.5
         }
