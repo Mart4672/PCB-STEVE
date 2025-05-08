@@ -64,3 +64,19 @@ TODO
 - use a PMOS mosfet for reverse polarity protection
 - add additional IMUs to the board
 - add an RJ45 connector to utilize the ethernet capabilities of the STM32F407 (this might be part of a completely different board design)
+
+## Using/opening this project on a different machine
+
+- open the project file in KiCad
+
+On the top bar, the following thing needs to be updated based on the machine you are using:
+- Preferences > Configure Paths
+Add an enironment variable with a name of:
+CURRENT_PROJ_DIR
+The value of the enirnment variable should be:
+your-repo-dir-path/PCB-STEVE/hardware
+
+On the top bar, the following things should not need to be updated but both use the CURRENT_PROJ_DIR variable 
+- Preferences > Manage Symbol Libraries > Project Specific Libraries (tab)
+- Preferences > Manage Footprint Libraries > Project Specific Libraries (tab)
+
