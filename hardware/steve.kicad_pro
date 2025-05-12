@@ -659,5 +659,9 @@
       "STEVE Page 3"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_LENGTH": "50",
+    "BOARD_WIDTH": "50",
+    "EDGE_WIDTH": "2.5"
+  }
 }
