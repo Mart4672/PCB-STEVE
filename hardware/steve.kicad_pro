@@ -200,6 +200,7 @@
         0.75,
         1.0,
         1.5,
+        1.75,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -232,6 +233,30 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.46,
+          "drill": 0.23
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.28
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -488,21 +513,49 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.28,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default_Original",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.25,
+        "microvia_drill": 0.15,
+        "name": "signal",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.55,
+        "via_drill": 0.28
       }
     ],
     "meta": {
