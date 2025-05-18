@@ -12073,6 +12073,7 @@
 	(symbol
 		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA_Parallel")
 		(at 194.31 88.9 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12080,7 +12081,7 @@
 		(dnp no)
 		(uuid "754a7cb7-f96f-4ff4-b9d2-83fccf456a50")
 		(property "Reference" "5V-DiodeArr1"
-			(at 204.47 91.186 0)
+			(at 184.15 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +12092,7 @@
 			)
 		)
 		(property "Value" "Schottky Diode Array, 5A per, 40V"
-			(at 193.04 94.996 0)
+			(at 195.58 94.996 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12099,7 +12100,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Footprints:PDS1040CTL-13_PowerDI-5"
-			(at 195.58 88.9 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,7 +12109,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/PDS1040CTL-13/717933"
-			(at 195.58 88.9 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

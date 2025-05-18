@@ -9102,7 +9102,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 255.27 102.87 180)
+		(at 255.27 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9110,7 +9111,7 @@
 		(dnp no)
 		(uuid "879030bc-d8b1-4657-a818-c7e9b49ad464")
 		(property "Reference" "R20"
-			(at 250.698 100.076 0)
+			(at 259.842 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9122,7 +9123,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 251.46 105.664 0)
+			(at 259.08 105.664 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9131,7 +9132,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.254 102.616 90)
+			(at 256.286 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
