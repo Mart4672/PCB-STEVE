@@ -22823,6 +22823,43 @@
 		(layer "F.CrtYd")
 		(uuid "cbb8991d-488b-4583-a781-ff97551841e9")
 	)
+	(gr_text "STEVE V1.0.0"
+		(at 109 142 0)
+		(layer "F.SilkS")
+		(uuid "1f053128-edb2-462a-9590-636248a5e4a1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "{dblquote}I... am Steve{dblquote}"
+		(at 143.7 112.9 0)
+		(layer "B.SilkS")
+		(uuid "2b29407c-4f42-4857-b22e-d47b1f132a99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "{dblquote}Did you ever hear the tragedy of Darth \nPlagueis The Wise? I thought not. It's \nnot a story the Jedi would tell you. It's \na Sith legend. Darth Plagueis was a \nDark Lord of the Sith, so powerful and \nso wise he could use the Force to \ninfluence the midichlorians to create \nlife…{dblquote}"
+		(at 131.1 141.9 0)
+		(layer "B.SilkS")
+		(uuid "9909e1c3-3d09-48f1-82b4-8663cb3db6a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 134.074999 120.6)
 		(end 133.275 120.6)
