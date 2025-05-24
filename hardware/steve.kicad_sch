@@ -5126,7 +5126,7 @@
 	)
 	(text_box "TXC 9H03200031\nLoad Capacitance C_L = 12.5pF"
 		(exclude_from_sim no)
-		(at 149.86 114.3 0)
+		(at 149.86 111.76 0)
 		(size 21.59 3.81)
 		(margins 0.5715 0.5715 0.5715 0.5715)
 		(stroke
@@ -5738,7 +5738,7 @@
 		(uuid "1c7f74de-fbf8-4352-ba56-e57d1e557b4d")
 	)
 	(junction
-		(at 168.91 54.61)
+		(at 166.37 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e38dbd4-e59f-4c66-9a09-b214478e519a")
@@ -5786,7 +5786,7 @@
 		(uuid "5d4cff49-a932-4f04-8d68-053eb1db8fb8")
 	)
 	(junction
-		(at 168.91 36.83)
+		(at 166.37 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e31e757-e10c-4046-96b2-089ed46c5382")
@@ -5846,7 +5846,7 @@
 		(uuid "ae7c0bb0-75fa-4c4d-b729-3e3e0fba62aa")
 	)
 	(junction
-		(at 200.66 43.18)
+		(at 204.47 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b720d2c0-6fa5-42a5-821d-8a9dc48c14ee")
@@ -6111,7 +6111,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 54.61) (xy 176.53 54.61)
+			(xy 166.37 54.61) (xy 176.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6721,7 +6721,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 53.34) (xy 200.66 55.88)
+			(xy 204.47 53.34) (xy 204.47 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6951,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 36.83) (xy 168.91 36.83)
+			(xy 163.83 36.83) (xy 166.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7241,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 24.13) (xy 168.91 26.67)
+			(xy 166.37 24.13) (xy 166.37 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7361,7 +7361,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 168.91 36.83)
+			(xy 166.37 34.29) (xy 166.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7431,7 +7431,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 24.13) (xy 200.66 26.67)
+			(xy 204.47 24.13) (xy 204.47 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7621,7 +7621,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 168.91 44.45)
+			(xy 166.37 36.83) (xy 166.37 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7671,7 +7671,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 168.91 54.61)
+			(xy 166.37 52.07) (xy 166.37 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7681,7 +7681,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 31.75) (xy 193.04 31.75)
+			(xy 200.66 31.75) (xy 196.85 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7691,7 +7691,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 54.61) (xy 168.91 55.88)
+			(xy 166.37 54.61) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7841,7 +7841,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 31.75) (xy 193.04 33.02)
+			(xy 196.85 31.75) (xy 196.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -7961,7 +7961,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 43.18) (xy 200.66 43.18)
+			(xy 201.93 43.18) (xy 204.47 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8021,7 +8021,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 200.66 43.18)
+			(xy 204.47 36.83) (xy 204.47 43.18)
 		)
 		(stroke
 			(width 0)
@@ -8051,7 +8051,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 43.18) (xy 200.66 45.72)
+			(xy 204.47 43.18) (xy 204.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8311,7 +8311,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 36.83) (xy 181.61 36.83)
+			(xy 166.37 36.83) (xy 181.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8781,7 +8781,7 @@
 	)
 	(global_label "BOOT0"
 		(shape input)
-		(at 198.12 43.18 180)
+		(at 201.93 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8791,7 +8791,7 @@
 		)
 		(uuid "4cd42659-e666-4c84-8ca3-1429f63f2ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.0267 43.18 0)
+			(at 192.8367 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9243,7 @@
 	)
 	(global_label "~{RESET}"
 		(shape input)
-		(at 166.37 36.83 180)
+		(at 163.83 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9253,7 +9253,7 @@
 		)
 		(uuid "8574265f-725f-46c6-a8d4-e78ff0062218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.6397 36.83 0)
+			(at 155.0997 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10938,7 +10938,7 @@
 		(dnp no)
 		(uuid "3fbc8c13-1748-4e30-ad6b-d15fc206c822")
 		(property "Reference" "Flash1"
-			(at 251.46 121.158 0)
+			(at 245.11 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10949,8 +10949,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVSIQ"
-			(at 252.222 117.094 0)
+		(property "Value" "W25Q128JVSIQ 128Mb SPI Flash C97521"
+			(at 225.806 145.034 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10976,7 +10976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8 - http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Description" "Winbond W25Q128JVSIQ 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 260.35 133.35 0)
 			(effects
 				(font
@@ -11097,7 +11097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41db256e-f9e0-4ca4-9399-22d771e929b6")
-		(property "Reference" "3.3V-LinReg1"
+		(property "Reference" "LDO-1"
 			(at 190.5 116.84 0)
 			(effects
 				(font
@@ -11108,7 +11108,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV1117LV33DCYR"
+		(property "Value" "3.3V 1A Lin Reg C15578"
 			(at 190.5 119.38 0)
 			(effects
 				(font
@@ -11134,7 +11134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223 (TLV1117-33 KiCad Symbol used)"
+		(property "Description" "TI TLV1117LV33DCYR 1A Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223 (TLV1117-33 KiCad Symbol used)"
 			(at 190.5 123.19 0)
 			(effects
 				(font
@@ -11155,7 +11155,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "3.3V-LinReg1")
+					(reference "LDO-1")
 					(unit 1)
 				)
 			)
@@ -11232,7 +11232,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 33.02 0)
+		(at 196.85 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11240,7 +11240,7 @@
 		(dnp no)
 		(uuid "49f641f2-e446-4891-a415-94c87e18efa1")
 		(property "Reference" "#PWR041"
-			(at 193.04 39.37 0)
+			(at 196.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11252,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 192.786 36.83 0)
+			(at 196.596 36.83 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11260,7 +11260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 33.02 0)
+			(at 196.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +11269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 33.02 0)
+			(at 196.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11278,7 +11278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 33.02 0)
+			(at 196.85 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11369,7 +11369,7 @@
 	)
 	(symbol
 		(lib_id "Switch:CK_KMS2xxG")
-		(at 200.66 31.75 270)
+		(at 204.47 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11377,7 +11377,7 @@
 		(dnp no)
 		(uuid "583b1141-42b3-4808-b57a-686c84bbf2f1")
 		(property "Reference" "BT0"
-			(at 203.962 30.226 90)
+			(at 207.772 30.226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11388,8 +11388,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KMR221G"
-			(at 191.262 28.448 90)
+		(property "Value" "Button KMR221G C72443"
+			(at 191.008 25.908 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11398,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Footprints:SW_Push_3D_1P1T-SH_NO_CK_KMR2xxG"
-			(at 205.74 31.75 0)
+			(at 209.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11407,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/KMR221G-LFS/550472"
-			(at 205.74 31.75 0)
+			(at 209.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11416,7 +11416,7 @@
 			)
 		)
 		(property "Description" "C&K Microminiature SMT Button/Switch 4.6 x 2.8 x 1.9mm, with shield pin - Using a modified CK_KMS2xxG symbol since that side mount symbol includes a shield pin"
-			(at 200.66 31.75 0)
+			(at 204.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 168.91 24.13 0)
+		(at 166.37 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11664,7 +11664,7 @@
 		(dnp no)
 		(uuid "5efae3ca-9c52-4034-89b7-7f40396be858")
 		(property "Reference" "#PWR013"
-			(at 168.91 27.94 0)
+			(at 166.37 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11676,7 +11676,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 168.656 20.32 0)
+			(at 166.116 20.32 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11684,7 +11684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 24.13 0)
+			(at 166.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +11693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 24.13 0)
+			(at 166.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11702,7 +11702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 168.91 24.13 0)
+			(at 166.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12003,7 +12003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 55.88 0)
+		(at 204.47 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12012,7 +12012,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f2f7c0c-67a3-497a-939e-dd8ed10a706f")
 		(property "Reference" "#PWR012"
-			(at 200.66 62.23 0)
+			(at 204.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12024,7 +12024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 60.96 0)
+			(at 204.47 60.96 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12032,7 +12032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12041,7 +12041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,15 +12073,14 @@
 	(symbol
 		(lib_id "Device:D_Schottky_Dual_CommonCathode_AKA_Parallel")
 		(at 194.31 88.9 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "754a7cb7-f96f-4ff4-b9d2-83fccf456a50")
-		(property "Reference" "5V-DiodeArr1"
-			(at 184.15 91.186 0)
+		(property "Reference" "D1"
+			(at 194.564 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,8 +12090,8 @@
 				)
 			)
 		)
-		(property "Value" "Schottky Diode Array, 5A per, 40V"
-			(at 195.58 94.996 0)
+		(property "Value" "10A/5A Schottky Diode Arr C780876"
+			(at 194.818 94.234 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12100,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Footprints:PDS1040CTL-13_PowerDI-5"
-			(at 193.04 88.9 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12108,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/PDS1040CTL-13/717933"
-			(at 193.04 88.9 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12117,7 +12116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PDS1040CTL-13 Schottky Diode Array, 5A per, 40V, Diodes Incorporated"
+		(property "Description" "Diodes Incorporated PDS1040CTL-13 Schottky Diode Array, 5A per, 40V"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -12138,7 +12137,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "5V-DiodeArr1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12222,8 +12221,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "808e17bc-03c3-4d62-a9b4-1ab91ba42433")
-		(property "Reference" "32.768kHz-Y2"
-			(at 140.716 115.316 0)
+		(property "Reference" "32K-Y2"
+			(at 141.732 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,8 +12232,8 @@
 				)
 			)
 		)
-		(property "Value" "32.768kHz"
-			(at 141.224 117.856 0)
+		(property "Value" "32.768kHz Crystal 12.5pf C90944"
+			(at 142.24 117.856 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12259,7 +12258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface Mount Crystal SMD3215-2P (-2P optional when searching in JLC)"
+		(property "Description" "32.768kHz Crystal 12.5pf SMD3215-2P (-2P optional when searching in JLC)"
 			(at 142.24 121.92 0)
 			(effects
 				(font
@@ -12277,7 +12276,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "32.768kHz-Y2")
+					(reference "32K-Y2")
 					(unit 1)
 				)
 			)
@@ -12423,7 +12422,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 200.66 49.53 0)
+		(at 204.47 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12431,7 +12430,7 @@
 		(dnp no)
 		(uuid "8b81c348-6737-472b-b922-e7155ca6b080")
 		(property "Reference" "R1"
-			(at 195.834 47.498 0)
+			(at 199.644 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12443,7 +12442,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 194.056 50.292 0)
+			(at 197.866 50.292 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12452,7 +12451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 201.676 49.784 90)
+			(at 205.486 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 49.53 0)
+			(at 204.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12470,7 +12469,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 200.66 49.53 0)
+			(at 204.47 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12563,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 48.26 0)
+		(at 166.37 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12572,7 +12571,7 @@
 		(dnp no)
 		(uuid "8cd4cd0b-1161-49c3-9143-76c6e53e3321")
 		(property "Reference" "C7"
-			(at 163.322 46.228 0)
+			(at 160.782 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +12583,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 160.782 49.276 0)
+			(at 158.242 49.276 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -12593,7 +12592,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 169.8752 52.07 0)
+			(at 167.3352 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 48.26 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12610,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 48.26 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +12780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9787774a-e517-4c03-a2d3-3584e3b36788")
-		(property "Reference" "STM32F407-µC1"
+		(property "Reference" "STM32F407-uC1"
 			(at 69.5041 170.18 0)
 			(effects
 				(font
@@ -12793,7 +12792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F407VGTx"
+		(property "Value" "STM32F407VGTx Microcontroller C12345"
 			(at 69.5041 172.72 0)
 			(effects
 				(font
@@ -13131,7 +13130,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "STM32F407-µC1")
+					(reference "STM32F407-uC1")
 					(unit 1)
 				)
 			)
@@ -13214,7 +13213,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e43fd3d-2d8e-4652-ac5b-e8e311842205")
 		(property "Reference" "USBC-1"
 			(at 229.87 17.78 0)
@@ -13227,8 +13225,8 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_16P"
-			(at 229.87 20.32 0)
+		(property "Value" "USB-C Receptacle 16P C3025063"
+			(at 230.632 21.082 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13253,7 +13251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB C Receptacle 16P horizontal - USB 2.0-only, 12P surface mount + 4 through hole stakes"
+		(property "Description" "GCT USB4105-GF-A USB-C Receptacle 16P horizontal - USB 2.0-only, 12P surface mount + 4 through hole stakes, C3025063 (0.6mm stakes) C3020560 (0.95mm stakes); DO NOT USE HCTL HC-TYPE-C-16P-CH3.18-3A-B5-02 C5307757 - INCOMPATIBLE post locations"
 			(at 229.87 40.64 0)
 			(effects
 				(font
@@ -13415,8 +13413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "KMR221G"
-			(at 172.212 42.418 90)
+		(property "Value" "Button KMR221G C72443"
+			(at 168.148 39.116 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13540,7 +13538,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 200.66 24.13 0)
+		(at 204.47 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13548,7 +13546,7 @@
 		(dnp no)
 		(uuid "a5fe8897-53b4-40e1-b981-475c8218e0e0")
 		(property "Reference" "#PWR011"
-			(at 200.66 27.94 0)
+			(at 204.47 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13560,7 +13558,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 200.406 20.32 0)
+			(at 204.216 20.32 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -13568,7 +13566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 24.13 0)
+			(at 204.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +13575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 24.13 0)
+			(at 204.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,7 +13584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 200.66 24.13 0)
+			(at 204.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,7 +14023,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 55.88 0)
+		(at 166.37 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14034,7 +14032,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc1cfa1d-477f-4a5f-8a5c-b69a5b62a882")
 		(property "Reference" "#PWR014"
-			(at 168.91 62.23 0)
+			(at 166.37 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14046,7 +14044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 60.96 0)
+			(at 166.37 60.96 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14054,7 +14052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 55.88 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14063,7 +14061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 55.88 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14072,7 +14070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 55.88 0)
+			(at 166.37 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,7 +14301,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 168.91 30.48 0)
+		(at 166.37 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14311,7 +14309,7 @@
 		(dnp no)
 		(uuid "c9dbf85f-815d-4fa3-bf4a-1553068396e5")
 		(property "Reference" "R2"
-			(at 164.084 28.448 0)
+			(at 161.544 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14323,7 +14321,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 162.306 31.242 0)
+			(at 159.766 31.242 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14332,7 +14330,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 169.926 30.734 90)
+			(at 167.386 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,7 +14339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 30.48 0)
+			(at 166.37 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,7 +14348,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 168.91 30.48 0)
+			(at 166.37 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14888,8 +14886,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecd176e7-1c64-4ecf-9360-8ab0d580440e")
-		(property "Reference" "8MHz-Y1"
-			(at 144.272 73.406 0)
+		(property "Reference" "8M-Y1"
+			(at 138.176 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14899,8 +14897,8 @@
 				)
 			)
 		)
-		(property "Value" "8MHz"
-			(at 137.668 77.216 0)
+		(property "Value" "8MHz Crystal 10pf C400090"
+			(at 148.082 73.406 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14925,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surface Mount Crystal SMD3225-4P (-4P optional when searching in JLC), GND on pins 2 and 4"
+		(property "Description" "8MHz Crystal 10pf SMD3225-4P (-4P optional when searching in JLC), GND on pins 2 and 4"
 			(at 142.24 85.09 0)
 			(effects
 				(font
@@ -14949,7 +14947,7 @@
 		(instances
 			(project ""
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283"
-					(reference "8MHz-Y1")
+					(reference "8M-Y1")
 					(unit 1)
 				)
 			)

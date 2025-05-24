@@ -1892,18 +1892,6 @@
 		(color 0 0 0 0)
 		(uuid "fc4c12ee-d8b8-4c0a-bbe2-98f68218dac9")
 	)
-	(no_connect
-		(at 40.64 40.64)
-		(uuid "7e1c2047-9187-4388-a63b-058ef4f0fe00")
-	)
-	(no_connect
-		(at 40.64 38.1)
-		(uuid "ab5d8944-093a-433c-bb1d-070234f8ad66")
-	)
-	(no_connect
-		(at 40.64 83.82)
-		(uuid "beab3aad-06ee-4bf4-8bd0-18acd6ea75bf")
-	)
 	(wire
 		(pts
 			(xy 109.22 119.38) (xy 109.22 111.76)
@@ -1954,19 +1942,9 @@
 		)
 		(uuid "05e6fed9-7c1d-4be4-a552-4ffb6c2dbb1f")
 	)
-	(polyline
-		(pts
-			(xy 284.9646 87.98) (xy 284.9646 87.9912)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082d58d8-ac3d-452f-bb65-434086d35553")
-	)
 	(wire
 		(pts
-			(xy 34.29 27.94) (xy 40.64 27.94)
+			(xy 39.37 25.4) (xy 43.18 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1984,16 +1962,6 @@
 		)
 		(uuid "0969940b-3f5e-45e3-803e-541ad550a8ce")
 	)
-	(wire
-		(pts
-			(xy 34.29 35.56) (xy 40.64 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f6b3d3-769e-4c1e-84db-62f8a5feda92")
-	)
 	(polyline
 		(pts
 			(xy 285.0075 74.7569) (xy 285.0075 74.7644)
@@ -2003,16 +1971,6 @@
 			(type default)
 		)
 		(uuid "0b6406f1-1d51-49e4-8275-28b7575cf9ab")
-	)
-	(wire
-		(pts
-			(xy 34.29 57.15) (xy 40.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cc5786b-cfc2-4649-b70f-1bfdc2f2c031")
 	)
 	(wire
 		(pts
@@ -2053,16 +2011,6 @@
 			(type default)
 		)
 		(uuid "15cac78c-3d7d-4771-b8af-cb1ac6e59e9b")
-	)
-	(wire
-		(pts
-			(xy 34.29 62.23) (xy 40.64 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac4d317-7748-41e0-8ec3-b72c04940323")
 	)
 	(wire
 		(pts
@@ -2136,6 +2084,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 83.82) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314e297f-48be-484b-9a21-99b5e6114988")
+	)
+	(wire
+		(pts
 			(xy 123.19 44.45) (xy 123.19 46.99)
 		)
 		(stroke
@@ -2186,6 +2144,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 62.23) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39935acd-795d-4b43-98ce-daa10ed5424f")
+	)
+	(wire
+		(pts
 			(xy 156.21 44.45) (xy 156.21 46.99)
 		)
 		(stroke
@@ -2226,7 +2194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.0335 87.9912) (xy 284.9646 87.9912)
+			(xy 12.0538 95.4833) (xy 284.9849 95.4833)
 		)
 		(stroke
 			(width 0)
@@ -2336,13 +2304,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 59.69) (xy 40.64 59.69)
+			(xy 43.18 57.15) (xy 20.32 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66f85c2e-fb6c-4720-8fae-1184018a1eaf")
+		(uuid "67cdb965-ecee-4c81-88c1-cf9ebfd365dc")
 	)
 	(wire
 		(pts
@@ -2376,7 +2344,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 76.2) (xy 40.64 76.2)
+			(xy 40.64 86.36) (xy 43.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71090146-9653-4762-87c4-8390916f86a2")
+	)
+	(wire
+		(pts
+			(xy 40.64 78.74) (xy 43.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 40.64 71.12)
+			(xy 40.64 73.66) (xy 43.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 40.64 52.07)
+			(xy 36.83 52.07) (xy 43.18 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2463,6 +2441,16 @@
 			(type default)
 		)
 		(uuid "88f87665-b9cb-47e5-bc0f-028367f26a19")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 43.18 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ace406c-9294-40d2-aa7a-29f8b85a5e41")
 	)
 	(wire
 		(pts
@@ -2596,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 30.48) (xy 40.64 30.48)
+			(xy 39.37 27.94) (xy 43.18 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2636,6 +2624,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 33.02) (xy 20.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbf6531-be43-4bcc-80ea-53ef69abba36")
+	)
+	(wire
+		(pts
 			(xy 146.05 44.45) (xy 156.21 44.45)
 		)
 		(stroke
@@ -2656,6 +2654,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 59.69) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0ccf33-6f9a-4c35-b8a5-e60433eacc09")
+	)
+	(wire
+		(pts
 			(xy 113.03 119.38) (xy 109.22 119.38)
 		)
 		(stroke
@@ -2666,7 +2674,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 73.66) (xy 40.64 73.66)
+			(xy 40.64 76.2) (xy 43.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2706,13 +2714,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 81.28) (xy 40.64 81.28)
+			(xy 20.32 33.02) (xy 20.32 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6dce5e4-2df8-4127-b49e-eadf3d5b04ab")
+		(uuid "b6a7d9de-66e5-406b-a60a-975a97c8a3ce")
 	)
 	(wire
 		(pts
@@ -2736,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 40.64 49.53)
+			(xy 36.83 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 54.61) (xy 40.64 54.61)
+			(xy 36.83 54.61) (xy 43.18 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2776,16 +2784,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 78.74) (xy 40.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f131de-4947-4fc7-a471-ad87bab8092e")
-	)
-	(wire
-		(pts
 			(xy 90.17 31.75) (xy 90.17 34.29)
 		)
 		(stroke
@@ -2803,6 +2801,16 @@
 			(type default)
 		)
 		(uuid "cb5a927e-0b9f-4f38-bb16-ead604508fdb")
+	)
+	(wire
+		(pts
+			(xy 39.37 38.1) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6574e9-92fc-448e-800b-ace99db52195")
 	)
 	(wire
 		(pts
@@ -2906,6 +2914,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 81.28) (xy 43.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c873f1-8e2e-4e47-968a-8822789c0060")
+	)
+	(wire
+		(pts
 			(xy 123.19 57.15) (xy 123.19 59.69)
 		)
 		(stroke
@@ -2923,6 +2941,16 @@
 			(type default)
 		)
 		(uuid "e694606a-a3ef-4649-a4b5-9a741abe32bd")
+	)
+	(wire
+		(pts
+			(xy 20.32 85.09) (xy 20.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e754a91e-04e7-4188-9279-aa59b707a084")
 	)
 	(wire
 		(pts
@@ -2956,7 +2984,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 33.02) (xy 40.64 33.02)
+			(xy 20.32 57.15) (xy 20.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd014776-c1db-4d24-84e2-08d35d8e0658")
+	)
+	(wire
+		(pts
+			(xy 39.37 30.48) (xy 43.18 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +3014,7 @@
 	)
 	(global_label "CONT5_V_BATT"
 		(shape input)
-		(at 34.29 81.28 180)
+		(at 40.64 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2986,7 +3024,7 @@
 		)
 		(uuid "04a3799a-d857-4f0c-b67f-2b3b1e87d034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 81.28 0)
+			(at 24.2291 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3080,7 @@
 	)
 	(global_label "SERVO_PWM_3"
 		(shape input)
-		(at 34.29 33.02 180)
+		(at 39.37 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3052,7 +3090,7 @@
 		)
 		(uuid "166bb6b3-75c8-4932-80b5-468dfef2f1a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9397 33.02 0)
+			(at 23.0197 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3102,7 @@
 	)
 	(global_label "MOSFET_5"
 		(shape input)
-		(at 34.29 59.69 180)
+		(at 36.83 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3074,7 +3112,7 @@
 		)
 		(uuid "28714f0e-1e0e-4ce7-9d86-06d270d2f734")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9311 59.69 0)
+			(at 24.4711 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +3124,7 @@
 	)
 	(global_label "CONT3_V_BATT"
 		(shape input)
-		(at 34.29 76.2 180)
+		(at 40.64 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3096,7 +3134,7 @@
 		)
 		(uuid "2b907c43-5f01-4350-8977-a43eaad99d26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 76.2 0)
+			(at 24.2291 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3234,7 @@
 	)
 	(global_label "SERVO_PWM_4"
 		(shape input)
-		(at 34.29 35.56 180)
+		(at 39.37 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3206,7 +3244,7 @@
 		)
 		(uuid "73d327b5-5057-4683-9c1d-76a7b95b1e3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9397 35.56 0)
+			(at 23.0197 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3300,7 @@
 	)
 	(global_label "MOSFET_1"
 		(shape input)
-		(at 34.29 49.53 180)
+		(at 36.83 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3272,7 +3310,7 @@
 		)
 		(uuid "83923d76-32a0-470f-9363-ba22762e8838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9311 49.53 0)
+			(at 24.4711 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3344,7 @@
 	)
 	(global_label "BATT1_V"
 		(shape input)
-		(at 34.29 62.23 180)
+		(at 39.37 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3316,7 +3354,7 @@
 		)
 		(uuid "883bd0ad-52a6-4f08-b4ee-6adba5a48e2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.7453 62.23 0)
+			(at 28.8253 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3432,7 @@
 	)
 	(global_label "SERVO_PWM_1"
 		(shape input)
-		(at 34.29 27.94 180)
+		(at 39.37 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3404,7 +3442,7 @@
 		)
 		(uuid "9e5e8b69-9bf0-4da0-bf6e-5a6b4a41bdfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9397 27.94 0)
+			(at 23.0197 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3476,7 @@
 	)
 	(global_label "MOSFET_3"
 		(shape input)
-		(at 34.29 54.61 180)
+		(at 36.83 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +3486,7 @@
 		)
 		(uuid "adbbba51-b106-4693-92a1-0e0674a5dff6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9311 54.61 0)
+			(at 24.4711 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3498,7 @@
 	)
 	(global_label "CONT2_V_BATT"
 		(shape input)
-		(at 34.29 73.66 180)
+		(at 40.64 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3470,7 +3508,7 @@
 		)
 		(uuid "afd87254-4892-43fe-b25f-8aa733b045cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 73.66 0)
+			(at 24.2291 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3542,7 @@
 	)
 	(global_label "CONT1_V_BATT"
 		(shape input)
-		(at 34.29 71.12 180)
+		(at 40.64 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3514,7 +3552,7 @@
 		)
 		(uuid "b3f9b7cc-49b9-4442-aa84-afd92a58fb47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 71.12 0)
+			(at 24.2291 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3526,7 +3564,7 @@
 	)
 	(global_label "MOSFET_2"
 		(shape input)
-		(at 34.29 52.07 180)
+		(at 36.83 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3536,7 +3574,7 @@
 		)
 		(uuid "b549d1af-f9cd-4e40-83aa-7fa65713c09d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9311 52.07 0)
+			(at 24.4711 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3586,7 @@
 	)
 	(global_label "SERVO_PWM_2"
 		(shape input)
-		(at 34.29 30.48 180)
+		(at 39.37 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3558,7 +3596,7 @@
 		)
 		(uuid "c0af32f7-c31f-4303-9e19-e4e6ca605af4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9397 30.48 0)
+			(at 23.0197 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3630,7 @@
 	)
 	(global_label "CONT4_V_BATT"
 		(shape input)
-		(at 34.29 78.74 180)
+		(at 40.64 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3602,7 +3640,7 @@
 		)
 		(uuid "c4d2ccb4-9c5e-4907-b82d-573404a8cbb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.8791 78.74 0)
+			(at 24.2291 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3740,7 @@
 	)
 	(global_label "MOSFET_4"
 		(shape input)
-		(at 34.29 57.15 180)
+		(at 36.83 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3712,7 +3750,7 @@
 		)
 		(uuid "e9d61c43-4b77-4f0d-ba22-2dc98a9b69bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.9311 57.15 0)
+			(at 24.4711 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,7 +3781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TerminalBlock_1770979_4pos_Vertical"
+		(property "Value" "5A Spring Conn 4pos C3818616"
 			(at 144.526 136.906 0)
 			(effects
 				(font
@@ -3772,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Phoenix Contact TerminalBlock 1770979 4pos Vertical Mounting"
+		(property "Description" "Phoenix Contact 1770979 Screwless Terminal Block 5A 20-26AWG 4pos Top Ent 2.5mm Pitch"
 			(at 175.26 114.3 0)
 			(effects
 				(font
@@ -3904,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TerminalBlock_1770979_4pos_Vertical"
+		(property "Value" "5A Spring Conn 4pos C3818616"
 			(at 84.836 136.906 0)
 			(effects
 				(font
@@ -3933,7 +3971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Phoenix Contact TerminalBlock 1770979 4pos Vertical Mounting"
+		(property "Description" "Phoenix Contact 1770979 Screwless Terminal Block 5A 20-26AWG 4pos Top Ent 2.5mm Pitch"
 			(at 115.57 114.3 0)
 			(effects
 				(font
@@ -4202,8 +4240,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 74.168 55.88 0)
+		(property "Value" "NMOS GSD 350mA 60V C282405"
+			(at 64.516 57.912 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4229,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain, Nexperia 2N7002BK-215"
+		(property "Description" "Nexperia 2N7002BK-215 N-MOSFET transistor, gate/source/drain pin config 60V 350mA SOT-23 TO-236AB"
 			(at 87.63 52.07 0)
 			(effects
 				(font
@@ -4414,8 +4452,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 173.228 55.88 0)
+		(property "Value" "NMOS GSD 350mA 60V C282405"
+			(at 163.83 57.658 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4441,7 +4479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain, Nexperia 2N7002BK-215"
+		(property "Description" "Nexperia 2N7002BK-215 N-MOSFET transistor, gate/source/drain pin config 60V 350mA SOT-23 TO-236AB"
 			(at 186.69 52.07 0)
 			(effects
 				(font
@@ -4561,8 +4599,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 206.248 55.88 0)
+		(property "Value" "NMOS GSD 350mA 60V C282405"
+			(at 196.85 57.658 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4588,7 +4626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain, Nexperia 2N7002BK-215"
+		(property "Description" "Nexperia 2N7002BK-215 N-MOSFET transistor, gate/source/drain pin config 60V 350mA SOT-23 TO-236AB"
 			(at 219.71 52.07 0)
 			(effects
 				(font
@@ -4822,6 +4860,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ef86729-f5ac-44d5-be98-2bd621a63c56")
+		(property "Reference" "#PWR084"
+			(at 20.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56c7f78a-fdf4-40e0-8e7b-5d231eb7a094")
+		)
+		(instances
+			(project "steve"
+				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 156.21 38.1 180)
 		(unit 1)
@@ -4962,6 +5068,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dd3acd-fa37-4927-9167-bf95fcfd5b72")
+		(property "Reference" "#PWR042"
+			(at 20.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 43.18 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce78b375-3210-488b-9e99-d307ba87b86e")
+		)
+		(instances
+			(project "steve"
+				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 90.17 31.75 0)
 		(unit 1)
@@ -5031,16 +5205,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 45.72 33.02 0)
+		(at 48.26 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "760e387f-1746-4ef6-be99-5fc02997e38f")
-		(property "Reference" "PSM-1"
-			(at 48.26 33.02 0)
+		(property "Reference" "J1"
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,8 +5224,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSM-Servo"
-			(at 48.26 35.5599 0)
+		(property "Value" "JST GH 6P Vertical 1A C189892"
+			(at 37.338 40.894 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5061,7 +5234,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
-			(at 45.72 33.02 0)
+			(at 48.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,8 +5242,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 33.02 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM06B-GHS-TBT/807804"
+			(at 48.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,8 +5251,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 33.02 0)
+		(property "Description" "JST GH Connector BM06B-GHS-TBT, 6P, Vertical Mounting, 1A per pin, single row"
+			(at 48.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5281,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "PSM-1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5116,16 +5289,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 45.72 54.61 0)
+		(at 48.26 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "812ede02-90c5-4b69-9a46-ff410035995a")
-		(property "Reference" "PSM-2"
-			(at 48.26 54.61 0)
+		(property "Reference" "J2"
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,8 +5308,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSM-MOSFET_BATT1"
-			(at 48.26 57.1499 0)
+		(property "Value" "JST GH 6P Vertical 1A C189892"
+			(at 37.084 65.278 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5146,7 +5318,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
-			(at 45.72 54.61 0)
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,8 +5326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 54.61 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM06B-GHS-TBT/807804"
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,8 +5335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 54.61 0)
+		(property "Description" "JST GH Connector BM06B-GHS-TBT, 6P, Vertical Mounting, 1A per pin, single row"
+			(at 48.26 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5365,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "PSM-2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5201,16 +5373,15 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 45.72 76.2 0)
+		(at 48.26 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "89bd623c-e3b7-46a0-b8ca-673d83c47154")
-		(property "Reference" "PSM-3"
-			(at 48.26 76.2 0)
+		(property "Reference" "J3"
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,8 +5392,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSM_Cont"
-			(at 48.26 78.7399 0)
+		(property "Value" "JST GH 6P Vertical 1A C189892"
+			(at 36.83 89.408 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5231,7 +5402,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical"
-			(at 45.72 76.2 0)
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,8 +5410,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 45.72 76.2 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM06B-GHS-TBT/807804"
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,8 +5419,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.72 76.2 0)
+		(property "Description" "JST GH Connector BM06B-GHS-TBT, 6P, Vertical Mounting, 1A per pin, single row"
+			(at 48.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5449,7 @@
 		(instances
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
-					(reference "PSM-3")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5373,8 +5544,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 140.208 55.88 0)
+		(property "Value" "NMOS GSD 350mA 60V C282405"
+			(at 130.556 57.912 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5400,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain, Nexperia 2N7002BK-215"
+		(property "Description" "Nexperia 2N7002BK-215 N-MOSFET transistor, gate/source/drain pin config 60V 350mA SOT-23 TO-236AB"
 			(at 153.67 52.07 0)
 			(effects
 				(font
@@ -5448,8 +5619,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 107.188 55.88 0)
+		(property "Value" "NMOS GSD 350mA 60V C282405"
+			(at 97.536 57.658 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5475,7 +5646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain, Nexperia 2N7002BK-215"
+		(property "Description" "Nexperia 2N7002BK-215 N-MOSFET transistor, gate/source/drain pin config 60V 350mA SOT-23 TO-236AB"
 			(at 120.65 52.07 0)
 			(effects
 				(font
@@ -5710,6 +5881,74 @@
 			(project "steve"
 				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0f796f3-c618-43cf-9b15-f73709248b47")
+		(property "Reference" "#PWR085"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 132 132 0 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 88.9 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "208d44f5-e9cb-4456-b9de-91678e950729")
+		)
+		(instances
+			(project "steve"
+				(path "/f7ed98e3-ddd9-4c0c-9e06-df5f86e74283/203efb9b-0e38-445a-a51a-cbb7d642002b"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -6158,7 +6397,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TerminalBlock_1770979_4pos_Vertical"
+		(property "Value" "5A Spring Conn 4pos C3818616"
 			(at 16.256 136.906 0)
 			(effects
 				(font
@@ -6187,7 +6426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Phoenix Contact TerminalBlock 1770979 4pos Vertical Mounting"
+		(property "Description" "Phoenix Contact 1770979 Screwless Terminal Block 5A 20-26AWG 4pos Top Ent 2.5mm Pitch"
 			(at 46.99 114.3 0)
 			(effects
 				(font

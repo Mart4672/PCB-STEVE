@@ -80,3 +80,42 @@ On the top bar, the following things should not need to be updated but both use 
 - Preferences > Manage Symbol Libraries > Project Specific Libraries (tab)
 - Preferences > Manage Footprint Libraries > Project Specific Libraries (tab)
 
+
+## PCB Ordering Notes
+
+#### STEVE V1.0.0 
+STEVE V1.0.0 is a 4 layer PCB that uses vias as small as 
+0.2mm (hole size) / 0.4mm (overall via diameter)
+A future 6 layer version will require different ordering options
+
+For JLC PCB Assembly, the following nonstandard options should be selected for JLC's "Standard PCB/PCBA service:
+
+- $16.10 Surface Finish = ENIG
+- $16.10 Via Covering = Epoxy Filled and Capped
+- $16.29 Min via hole size/diameter = 0.2mm/(0.3/0.35mm)
+    - $16.02 this option requires a 4-Wire Kelvin Test
+- Mark on PCB = 2D barcode (Serial Number)
+    - 2D barcode Only | QR Code | STEVE_V1-0-0_SN0001 | 8*8mm
+
+Advanced Options
+- $0.71 Blank Box
+
+PCB Assembly Options
+STEVE 1.0.0 is a 50x50mm board; using PCBA auotmatically sets the board size to 
+70x70mm for adding edge rails/fiducials. This slightly increases the cost of the 
+above options.
+- PCBA Type = Standard
+- Assembly Side = Both Sides
+- PCBA Qty = 2 (can choose 2+ based on component availibility)
+- Edge Rails/Fiducials = Added by JLCPCB
+- Confirm Parts Placement = Yes
+
+Advanced Options
+- Photo Confirmation = Yes
+- Conformal Coating (+cleaning) = No (can choose yes for future boards)
+- Packaging = ESD+Cardboard
+- Solder Paste = Sn96.5/Ag3.0/Cu0.5 (Do NOT use Bismuth/Bi solder)
+
+## Other Notes
+- Don't use special characters such as "µ" for part designators, footprints, or values as this can cause issues with processing the bom and positions (CPL) files.
+
