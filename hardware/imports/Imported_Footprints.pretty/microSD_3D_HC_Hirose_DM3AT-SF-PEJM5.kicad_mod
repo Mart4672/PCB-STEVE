@@ -1,7 +1,7 @@
 (footprint "microSD_3D_HC_Hirose_DM3AT-SF-PEJM5"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
 	(tags "Micro SD")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a8eed7d1-15d0-4c3f-9056-85603df441eb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -109,7 +96,7 @@
 	)
 	(fp_line
 		(start -5.945 8.385)
-		(end -6.145 8.185)
+		(end -6.074275 8.255725)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -529,85 +516,85 @@
 	(pad "1" smd rect
 		(at 2.775 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "d42b6f7a-9e9d-4d6a-b4b8-a7d4dfc14a8d")
 	)
 	(pad "2" smd rect
 		(at 1.675 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "91b42293-2d1d-4cdc-83ac-4cbf659023aa")
 	)
 	(pad "3" smd rect
 		(at 0.575 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "e6e157f3-8a56-45d6-8ef2-de08d8062922")
 	)
 	(pad "4" smd rect
 		(at -0.525 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c8830a3e-6f30-42da-bac2-84cc6a552b99")
 	)
 	(pad "5" smd rect
 		(at -1.625 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3ad4f8e3-3f0d-410c-8fd0-f9a9529fc2c7")
 	)
 	(pad "6" smd rect
 		(at -2.725 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1c48c3c1-b68e-44f8-8d19-a8d55ac317a1")
 	)
 	(pad "7" smd rect
 		(at -3.825 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c52b3e29-dc41-4a7d-b305-404f6666a640")
 	)
 	(pad "8" smd rect
 		(at -4.925 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "aca06608-4af8-4724-a008-f7592de498f6")
 	)
 	(pad "9" smd rect
 		(at -5.875 -7.725)
 		(size 0.7 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "096cb583-8ee1-4a05-92c4-21bb7f8d8e92")
 	)
 	(pad "10" smd rect
 		(at -6.825 2.775)
 		(size 1 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0d71c0d7-8dee-4f35-89f4-e1c13bc0ab68")
 	)
 	(pad "11" smd rect
 		(at -6.825 -3.425)
 		(size 1 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "9ce495f9-4e92-4dbc-8edf-00e89c0997fe")
 	)
 	(pad "11" smd rect
 		(at -6.825 6.925)
 		(size 1 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0b25824b-d787-434d-8609-0d9e36029098")
 	)
 	(pad "11" smd rect
 		(at 4.325 -7.725)
 		(size 1 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "73790d06-0792-4a85-90a6-bea9bbf93bb9")
 	)
 	(pad "11" smd rect
 		(at 6.675 7.375)
 		(size 1.3 1.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b63e2f0-5c93-4e49-aed2-9e4171b31824")
 	)
 	(zone
@@ -627,6 +614,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -656,6 +647,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -683,6 +678,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.508)
@@ -712,6 +711,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -740,6 +743,10 @@
 			(copperpour not_allowed)
 			(footprints not_allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -750,6 +757,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${CURRENT_PROJ_DIR}/imports/DM3AT_SF_PEJM5/DM3AT-SF-PEJM5.STEP"
 		(offset
 			(xyz 0 -0.25 0)
