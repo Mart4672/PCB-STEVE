@@ -53,14 +53,11 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
     - Mosfet continuity signals (5)
     - Battery #1 Voltage sense line
 
-TODO
-    - board setup for fab
-    - route traces
-    - Rule checks
 
 ## Future Updates
 
 ### Future STEVE Updates
+- 6 layer board variant, potentially with all components on one side for ease of manufacturing
 - use a PMOS mosfet for reverse polarity protection
 - add additional IMUs to the board
 - add an RJ45 connector to utilize the ethernet capabilities of the STM32F407 (this might be part of a completely different board design)
