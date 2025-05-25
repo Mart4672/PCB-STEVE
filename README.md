@@ -95,7 +95,7 @@ For JLC PCB Assembly, the following nonstandard options should be selected for J
 - $16.29 Min via hole size/diameter = 0.2mm/(0.3/0.35mm)
     - $16.02 this option requires a 4-Wire Kelvin Test
 - Mark on PCB = 2D barcode (Serial Number)
-    - 2D barcode Only | QR Code | STEVE_V1-0-0_SN0001 | 8*8mm
+    - 2D barcode Only | QR Code | STEVE_V1-0-0_SN | 0001 | 8*8mm (5x5 also ok)
 
 Advanced Options
 - $0.71 Blank Box
@@ -107,7 +107,7 @@ above options.
 - PCBA Type = Standard
 - Assembly Side = Both Sides
 - PCBA Qty = 2 (can choose 2+ based on component availibility)
-- Edge Rails/Fiducials = Added by JLCPCB
+- Edge Rails/Fiducials = Added by JLCPCB (default)
 - Confirm Parts Placement = Yes
 
 Advanced Options
