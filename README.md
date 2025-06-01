@@ -2,7 +2,7 @@
 STM32F4 based Flight Computer Development PCB
 
 STEVE, the name of this flight computer, is an acronym:
-Starter Testbed for Evolving the Vehicle Electronics
+*Starter Testbed for Evolving the Vehicle Electronics*
 
 As the name implies, the intention of STEVE is to be a testbed circuitboard for proving out avionics functionality.
 STEVE is very much a development board as this is the first STM32 PCB that I have designed.
@@ -12,7 +12,8 @@ Future versions of STEVE will have a focus on exapnding a flight vehicle's envel
 
 STEVE is intended to be used on a flight vehicle such as a model rocket but can also be used in static environments such as a ground test stand.
 
-## STEVE Version 1 Hardware Features
+## STEVE Version 1.1.0 Hardware Features
+- 70 x 70 mm, 6 layer board with all components on one side for ease of manufacturing
 - 1 STM32F407 Microcontroller
     - (STM32F407VGT6 is the specific SKU being used)
     - 1024 KB (1MB) of internal flash memory
@@ -28,8 +29,7 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
 - 1 BMP390 Barometric Pressure Sensor connected over SPI
 - A 2x5 1.27mm pitch debug header
 - A 32.768 kHz Low Speed External Crystal Oscillator
-- A 12 MHz High Speed External Crystal Oscillator
-    - this might be updated to 8 or 16 MHz in the future
+- A 8 MHz High Speed External Crystal Oscillator
 - A TI TLV1117 1A 3.3V Output Linear Regulator
 - A dedicated telemetry modem connection
     - uses screwless terminal blocks or a JST-GH connector
@@ -57,9 +57,10 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
 ## Future Updates
 
 ### Future STEVE Updates
-- 6 layer board variant, potentially with all components on one side for ease of manufacturing
+- use a 3.3V plane on layer 5 (some signals ok) if doing a 6 layer board with components on 1 side
+- move the 5V components to the same area
+- make the board smaller (60 x 60 mm)
 - use a PMOS mosfet for reverse polarity protection
-- add additional IMUs to the board
 - add an RJ45 connector to utilize the ethernet capabilities of the STM32F407 (this might be part of a completely different board design)
 
 ## Using/opening this project on a different machine
