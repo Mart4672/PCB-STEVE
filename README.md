@@ -60,6 +60,11 @@ STEVE is intended to be used on a flight vehicle such as a model rocket but can 
 - use a 3.3V plane on layer 5 (some signals ok) if doing a 6 layer board with components on 1 side
 - move the 5V components to the same area
 - make the board smaller (60 x 60 mm)
+- consider moving the complicated components (BMI, BMP, WS2812) to a separate board
+    - probably a bad idea since creating a simple daughter board with Standard PCBA would cost at least (10 PCB + 30 PCBA + 25 shipping) = $65
+    - using Economic PCBA only saves ~$25
+- give serious consideration to creating a STEVE revision with the PSM circuitry on the same board
+    - keep in mind that any board orders also have tarrifs, taxes, and shipping applied, which can easily double the initial PCB/PCBA cost
 - use a PMOS mosfet for reverse polarity protection
 - add an RJ45 connector to utilize the ethernet capabilities of the STM32F407 (this might be part of a completely different board design)
 
@@ -81,38 +86,56 @@ On the top bar, the following things should not need to be updated but both use 
 
 ## PCB Ordering Notes
 
-#### STEVE V1.0.0 
-STEVE V1.0.0 is a 4 layer PCB that uses vias as small as 
-0.2mm (hole size) / 0.4mm (overall via diameter)
-A future 6 layer version will require different ordering options
+#### STEVE V1.1.0 
+STEVE V1.1.0 is a 6 layer PCB that uses vias as small as 
+0.3mm (hole size) / 0.45mm (overall via diameter)
 
-For JLC PCB Assembly, the following nonstandard options should be selected for JLC's "Standard PCB/PCBA service:
+On JLC's website, 6 layer boards use the "Advanced PCB/PCBA service".
+This has different default options from the standard service
 
-- $16.10 Surface Finish = ENIG
-- $16.10 Via Covering = Epoxy Filled and Capped
-- $16.29 Min via hole size/diameter = 0.2mm/(0.3/0.35mm)
-    - $16.02 this option requires a 4-Wire Kelvin Test
+Nonstandard options chosen for the advanced PCB service:
+
+- (optional) Specify Stackup > No requirement
 - Mark on PCB = 2D barcode (Serial Number)
-    - 2D barcode Only | QR Code | STEVE_V1-0-0_SN | 0001 | 8*8mm (5x5 also ok)
+    - 2D barcode Only | QR Code | STEVE_V1-1-0_SN | Remove Unique Number | 0001 
+        - 8*8mm (5x5 also ok) | Specify Position (No Requirement is ok too)
 
 Advanced Options
 - $0.71 Blank Box
 
 PCB Assembly Options
-STEVE 1.0.0 is a 50x50mm board; using PCBA auotmatically sets the board size to 
-70x70mm for adding edge rails/fiducials. This slightly increases the cost of the 
-above options.
-- PCBA Type = Standard
-- Assembly Side = Both Sides
+A board with 6 or fewer layers and single sided assembly qualifies for 
+JLC's Economic PCBA
+https://jlcpcb.com/capabilities/pcb-assembly-capabilities
+See the above link for Economic PCBA constraints such as
+- only supporting green silkscreens
+- only supporting the ENIG finish
+
+STEVE 1.1.0 is a 70 x 70mm board; using Standard PCBA auotmatically sets the 
+board size to at least 70x70mm for adding edge rails/fiducials.
+"The board size would be modified to be 80*70mm for Standard PCBA due to adding two 5mm edge rails on the shorter sides"
+
+Nonstandard PCBA options chosen:
 - PCBA Qty = 2 (can choose 2+ based on component availibility)
 - Edge Rails/Fiducials = Added by JLCPCB (default)
 - Confirm Parts Placement = Yes
 
 Advanced Options
-- Photo Confirmation = Yes
+- Photo Confirmation = Yes (Not available for Economic)
 - Conformal Coating (+cleaning) = No (can choose yes for future boards)
-- Packaging = ESD+Cardboard
+    - Not available for Economic PCBA
+- Packaging = ESD+Cardboard (Cardboard is ok too)
 - Solder Paste = Sn96.5/Ag3.0/Cu0.5 (Do NOT use Bismuth/Bi solder)
+- The "Bake Components" option is not available for Economic PCBA
+    - Will need to use the Standard PCBA service or omit the WS2812 LEDs (C2761795) from being assembled since they are moisture sensitive
+- The BMI270 and BMP390 also require Standard PCBA
+
+"Note: The setup fee is $25 per assembly side for Standard PCBA."
+
+Stencil Order Options
+- No stencil being ordered
+    - If boards with many small pitch components (ex: STM32) are going to be assembled, a reflow oven is strongly recommended
+    - if a stencil is ordered, make sure to get it cut to size to save on shipping costs
 
 ## Other Notes
 - Don't use special characters such as "µ" for part designators, footprints, or values as this can cause issues with processing the bom and positions (CPL) files.
